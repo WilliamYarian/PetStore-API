@@ -1,0 +1,15 @@
+{
+  "name": "petstore-api",
+  "version": "1.0.0",
+  "description": "Playwright API test suite for the Swagger PetStore API",
+  "scripts": {
+    "test": "playwright test",
+    "test:pet": "playwright test tests/pet.spec.js",
+    "test:store": "playwright test tests/store.spec.js",
+    "test:user": "playwright test tests/user.spec.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  },
+  "author": "William Yarian"
+}
